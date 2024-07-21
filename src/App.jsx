@@ -3,6 +3,12 @@ import './App.css'
 
 function App() {
 
+  const [amount, setAmount] = useState(0)
+  const [convertedAmount, setConvertedAmount] = useState(0)
+  const [toValue, setToValue] = useState('USD')
+  const [fromValue, setFromValue] = useState('USD')
+
+
   return (
     <div className='App'>
       <input type="text" name="amount" id="amount" />
